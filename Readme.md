@@ -1,5 +1,5 @@
-Fix for [Sinatra 1.4.5's issue #951](https://github.com/sinatra/sinatra/issues/951)
-====================================================================================
+Fix for Sinatra 1.4.5's [issue #951](https://github.com/sinatra/sinatra/issues/951)
+===================================================================================
 
 My students have been hitting this for months now.
 Initially, when I figured it out, I just fixed it inline on the student's computer,
@@ -22,7 +22,7 @@ and I traced its history and explained what happened and why [here](https://gith
 If you want to understand why this fixes the issue,
 then you'll need to learn the Ruby Object Model.
 This is a class that [I teach](object-model-2httpsgithubcomjoshcheekruby-object-model),
-come and learn with us!
+come and learn with us at the [Turing School of Software and Design](http://turing.io/)!
 
 Installing
 ----------
@@ -35,13 +35,13 @@ gem 'sinatra-fix_951', require: 'sinatra/fix_951'
 
 If you aren't using Bundler, then install it from the command-line:
 
-```
+```sh
 $ gem install sinatra-fix_951
 ```
 
 And then require it wherever you're currently requiring Sinatra:
 
-```
+```ruby
 require 'sinatra/fix_951'
 ```
 
@@ -58,4 +58,4 @@ Sinatra::ShowExceptions.module_eval { def pretty(*) Array super end }
 LICENSE
 -------
 
-MIT, to mirror [Sinatra's license](see [here](https://github.com/sinatra/sinatra/blob/master/LICENSE).
+MIT, to mirror [Sinatra's license](https://github.com/sinatra/sinatra/blob/master/LICENSE).
