@@ -10,3 +10,4 @@
 /pkg
 /doc/api
 /Gemfile.lock
+*.gem
