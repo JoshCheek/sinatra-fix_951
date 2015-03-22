@@ -1,5 +1,6 @@
 # THIS IS COPY / PASTED STRAIGHT OUT OF THE SINATRA .travis.yml:
 # https://github.com/sinatra/sinatra/blob/v1.4.5/.travis.yml
+# (added 2.2.0)
 ---
 rvm:
   - 1.8.7
@@ -7,6 +8,7 @@ rvm:
   - 1.9.3
   - 2.0.0
   - 2.1.0
+  - 2.2.0
   - rbx
   - jruby
   - jruby-head
