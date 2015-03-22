@@ -41,13 +41,6 @@ test_path       = File.join sinatra_gemspec.full_gem_path, 'test'
 # fix load path :/
 $LOAD_PATH.unshift sinatra_gemspec.full_gem_path
 
-# load files that emit warnings if not explicitly required
-require 'redcarpet'
-require 'rdiscount'
-require 'bluecloth'
-require 'kramdown'
-require 'maruku'
-
 # load tests
 Dir[File.join test_path, '*_test.rb'].
   reject { |file| File.basename(file) == 'rdoc_test.rb' }. # rdoc_test is broken b/c assertion matches a regex against its content
