@@ -14,6 +14,12 @@ You will know if you hit this, because you'll get an error message like
 NoMethodError: undefined method `join' for #<String:0x007f62c3e6fb90>
 ```
 
+Or maybe one like this:
+
+```
+Unexpected error while processing request: undefined method `join' for #<String:0x007fa3d244d1f8>
+```
+
 If you want to understand it better, the issue is [here](https://github.com/sinatra/sinatra/issues/951),
 and I traced its history and explained what happened and why [here](https://github.com/sinatra/sinatra/issues/951#issuecomment-73140540).
 
