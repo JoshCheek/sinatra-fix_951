@@ -10,6 +10,7 @@ require 'rubygems'
 # while forcing it to actually load the new one, and then faking the interface enough to appease the tests
 gem 'minitest', '~> 5.1'
 $LOADED_FEATURES << `gem which test/unit`.chomp # so it won't try to re-require files that don't exist anymore
+$LOADED_FEATURES << 'test/unit.rb'              # 1.8.7 version of the previous line
 require 'minitest/autorun'                      # the new equivalent
 require 'minitest/unit'                         # the new equivalent
 Test = Minitest
