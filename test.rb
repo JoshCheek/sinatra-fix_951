@@ -1,6 +1,8 @@
 # Initially tested with this shell script (syntax is fish, not bash)
 # $ ruby -I . (find test -type f -name '*_test.rb' | awk '{ print "-r" $0 }') -e 'Sinatra::ShowExceptions.module_eval { def pretty(*) Array super end }'
 
+# this needs to support 1.8.7, which doesn't load rubygems by default -- actually, on my Ruby, it doesn't even ship with rubygems!
+require 'rubygems'
 
 # Fake it out to require the new minitest instead of the old minitest
 # The dependency wasn't formally specified, and it depends on ActiveSupport, which mandates the new Minitest,
