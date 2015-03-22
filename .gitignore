@@ -1,0 +1,12 @@
+# THIS IS COPY / PASTED STRAIGHT OUT OF THE SINATRA GEMFILE:
+# https://github.com/sinatra/sinatra/blob/v1.4.5/.gitignore
+
+# please add general patterns to your global ignore list
+# see https://github.com/github/gitignore#readme
+.DS_STORE
+*.swp
+*.rbc
+*.sass-cache
+/pkg
+/doc/api
+/Gemfile.lock
