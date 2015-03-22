@@ -25,7 +25,7 @@ and I traced its history and explained what happened and why [here](https://gith
 
 If you want to understand why this fixes the issue,
 then you'll need to learn the Ruby Object Model.
-This is a class that [I teach](object-model-2httpsgithubcomjoshcheekruby-object-model),
+This is a class that [I teach](http://today.turing.io/outlines/2015-03-11#object-model-2httpsgithubcomjoshcheekruby-object-model),
 come and learn with us at the [Turing School of Software and Design](http://turing.io/)!
 
 Installing
