@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/JoshCheek/sinatra-fix_951.png?branch=master)](https://travis-ci.org/JoshCheek/sinatra-fix_951)
+
 Fix for Sinatra 1.4.5's [issue #951](https://github.com/sinatra/sinatra/issues/951)
 ===================================================================================
 
