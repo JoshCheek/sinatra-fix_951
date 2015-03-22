@@ -1,5 +1,6 @@
 # THIS IS COPY / PASTED STRAIGHT OUT OF THE SINATRA GEMFILE:
 # https://github.com/sinatra/sinatra/blob/v1.4.5/Gemfile
+# (but I also added Minitest)
 
 # Why use bundler?
 # Well, not all development dependencies install on all rubies. Moreover, `gem

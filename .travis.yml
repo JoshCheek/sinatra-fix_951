@@ -1,4 +1,4 @@
-# THIS IS COPY / PASTED STRAIGHT OUT OF THE SINATRA GEMFILE:
+# THIS IS COPY / PASTED STRAIGHT OUT OF THE SINATRA .travis.yml:
 # https://github.com/sinatra/sinatra/blob/v1.4.5/.travis.yml
 ---
 rvm:
