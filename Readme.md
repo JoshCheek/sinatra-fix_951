@@ -1,11 +1,7 @@
 Fix for Sinatra 1.4.5's [issue #951](https://github.com/sinatra/sinatra/issues/951)
 ===================================================================================
 
-My students have been hitting this for months now.
-Initially, when I figured it out, I just fixed it inline on the student's computer,
-but other students hit it, too, and it's costing them time and energy.
-
-So, figured I'll just release a gem to fix it.
+Fixes a bug that my students have been hitting while working on their projects.
 
 How to know if you hit this
 ---------------------------
