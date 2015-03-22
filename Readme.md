@@ -45,16 +45,6 @@ And then require it wherever you're currently requiring Sinatra:
 require 'sinatra/fix_951'
 ```
 
-Alternative
------------
-
-You can fix it yourself with one line, and skip adding this dependency:
-
-```ruby
-require 'sinatra/base'
-Sinatra::ShowExceptions.module_eval { def pretty(*) Array super end }
-```
-
 LICENSE
 -------
 
