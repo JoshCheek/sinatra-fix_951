@@ -3,7 +3,7 @@
 Fix for Sinatra 1.4.5's [issue #951](https://github.com/sinatra/sinatra/issues/951)
 ===================================================================================
 
-Fixes a bug that my students have been hitting while working on their projects.
+**NOTE THAT THIS IS UNNECESSARY FOR 1.4.6+, BECAUSE THE BUG IS FIXED IN THOSE RELEASES!!**
 
 How to know if you hit this
 ---------------------------
